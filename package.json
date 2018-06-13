@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-reasonable-react",
+  "version": "1.0.1",
+  "description": "Eslint config for react",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghaynes1292/eslint-config-reasonable-react.git"
+  },
+  "keywords": [
+    "eslint",
+    "react"
+  ],
+  "author": "Gavin Haynes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghaynes1292/eslint-config-reasonable-react/issues"
+  },
+  "homepage": "https://github.com/ghaynes1292/eslint-config-reasonable-react#readme",
+  "peerDependencies": {
+    "eslint": ">=4.18.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-jsx": "^5.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
