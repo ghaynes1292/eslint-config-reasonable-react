@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-reasonable-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Eslint config for react",
   "main": "index.js",
   "repository": {
