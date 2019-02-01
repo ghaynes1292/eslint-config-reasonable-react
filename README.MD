@@ -3,28 +3,30 @@
 ```bash
 npm i -D eslint-config-reasonable-react
 ```
+```bash
+yarn add eslint-config-reasonable-react --dev
+```
 
 ## Usage
 
-You can just extend it on your `.eslintrc` file:
+You can just extend it on your `.eslintrc` file (assuming eslint version 5 or greater):
 
 ```javascript
  {
-   'extends': 'eslint-config-reasonable-react'
+   'extends': 'reasonable-react'
  }
 ```
+Remember to check your syntax and eslint version
 
-## Extends
+## This library extends:
 ```javascript
 [
-  'standard',
-  'standard-jsx',
   'eslint:recommended',
-  'plugin:react/recommended'
+  'plugin:react/recommended',
 ]
 ```
 
-## Plugins
+## Plugins:
 ```javascript
 [
   'promise',
